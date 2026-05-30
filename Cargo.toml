@@ -1,0 +1,11 @@
+[package]
+name = "lau-collections"
+version = "0.1.0"
+edition = "2021"
+description = "Custom data structures optimized for game workloads"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"
